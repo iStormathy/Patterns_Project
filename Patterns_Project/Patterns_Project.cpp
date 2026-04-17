@@ -13,7 +13,7 @@ int main()
         }
         cout << endl;
     }
-    // Second pattern decrements until the rows are back to 1
+    // Second pattern decrements until the final row is 1
     for (int a = row - 1; a >= 1; a--)
     {
         for (int b = 1; b <= a; b++)
